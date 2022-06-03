@@ -1,0 +1,279 @@
+body {
+    margin: 10px 10px;
+    padding: 20px 20px 20px 20px;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    background-color: rgb(81, 167, 182);
+    padding-bottom: 85px;
+    border-radius: 30px;
+    border: 3px dashed rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+nav {
+    float: right;
+    margin-right: 12px;
+    margin-top: 15px;
+    padding-top: 0px;
+    padding-bottom: 0;
+}
+
+nav ul {
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+nav ul li a {
+    display: block;
+    margin-top: 19px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+    font-size: 15px;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    background: rgb(69, 252, 13);
+    border: 1px dashed rgb(27, 2, 247);
+    color: rgba(255, 5, 5, 0.918);
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.search {
+    padding-top: 11px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+input {
+    height: 35px;
+    width: 8cm;
+    border-width: 3px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 40px;
+}
+
+button {
+    color: rgb(0, 0, 0);
+    border-style: none;
+    background: none;
+    padding-left: 5px;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 45px;
+    right: 40px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* login page */
+
+.h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkorchid;
+}
+
+.login-container {
+    width: 100%;
+    height: 100%;
+    display: table;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /* padding-top: 100px;
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-bottom: 100px; */
+}
+
+.signin {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.login-row {
+    width: 50%;
+    padding-left: 25%;
+    padding-top: 0%;
+    padding-right: 25%;
+    padding-bottom: 40px;
+    border: 5px solid greenyellow;
+    backface-visibility: visible;
+    background-image: url(https://fantasticroutes.com/wp-content/uploads/2019/12/FantasticRoutes-Nepal-Flag.jpg);
+    background-size: 100%;
+}
+
+.signin-col {
+    padding-left: 20px;
+    display: table-cell;
+    padding-right: 10px;
+    width: 0px;
+}
+
+.signin-col1 {
+    padding-right: 20px;
+    display: table-cell;
+    padding-right: 10px;
+    width: 40%;
+}
+
+/* .sign-in-fb {
+    width: 300px;
+    background-color: blue;
+    color: white;
+    height: 50px;
+    border: 2px solid rgb(42, 44, 39);
+}
+
+.sign-in-google {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(250, 9, 9);
+    color: white;
+    border: 2px solid rgb(42, 44, 39);
+}
+
+.or {
+    text-align: center;
+    color: rgb(2, 2, 2);
+    font-size: 30px;
+} */
+
+form {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.form {
+    height: 50px;
+    margin-bottom: 5px;
+    width: 100%;
+    border-radius: 0px;
+}
+
+.signin-button {
+    width: 100%;
+    height: 55px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(3, 243, 23);
+    border-radius: 10px;
+}
+
+.password-forgot {
+    text-align: left;
+    font-size: small;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(252, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: turquoise;
+}
+
+.bottom-signin {
+    padding-top: 20px;
+}
+
+.fa-sign-in-alt {
+    font-size: 20px;
+}
+
+.signinhere {
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+.create-new-acc-btn {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: rgb(255, 251, 0);
+    float: right;
+    background-color: rgb(5, 113, 255);
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+@media (max-width: 1200px) {
+    input {
+        width: 5cm;
+    }
+}
+
+@media (max-width: 1000px) {
+    /* Responsive navbar */
+    .toggle-button {
+        display: flex;
+    }
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: rgb(81, 167, 182);
+        border: 3px dashed black;
+        border-radius: 10px;
+    }
+    .navbar-links ul {
+        margin-top: 110px;
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbar-links li {
+        text-align: center;
+    }
+    .navbar-links li a {
+        margin: 1px 1px;
+    }
+    .navbar-links.active {
+        display: flex;
+    }
+}

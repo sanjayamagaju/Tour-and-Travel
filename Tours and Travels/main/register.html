@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="CSS/register.css">
+  <link href="dist/the-datepicker.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <title>Register New Account</title>
+</head>
+
+<body>
+  <header>`
+    <div class="logo">
+      <img src="images/visit nepal 2020.jpg" height="90px" width="140px" alt="logo" class="">
+    </div>
+
+    <nav class="navbar">
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="index.html"><b>Home</b></a></li>
+          <li><a href="gallery.html"><b>Gallery</b></a></li>
+          <li><a href="destination.html"><b>Destination</b></a></li>
+          <li><a href="aboutus.html"><b>About Us</b></a></li>
+          <li>
+            <form class="search" action="/search" method="GET">
+              <input type="text" placeholder="Search The packages" name="s" id="search">
+              <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <br><br>
+
+  <h1 class="h1">Register your account</h1>
+  <br>
+  <!-- register pannel -->
+  <form class="row g-3">
+    <div class="col-md-6">
+      <label class="form-label">First Name</label>
+      <input type="text" class="form-control">
+    </div>
+    <div class="col-md-6">
+      <label class="form-label">Last Name</label>
+      <input type="text" class="form-control">
+    </div>
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Email</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Password</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+    <div>Select the date:</div>
+    <div class="col-md-6">
+      <label class="form-label">Year</label>
+      <input type="number" class="form-control">
+    </div>
+    <div class="col-md-4">
+      <label class="form-label">Month</label>
+      <input type="number" class="form-control">
+    </div>
+    <div class="col-md-2">
+      <label class="form-label">Day</label>
+      <input type="number" class="form-control">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Country</label>
+        <select class="form-select">
+          <option selected>Country</option>
+          <option value="1">Nepal</option>
+          <option value="2">USA</option>
+          <option value="3">Canada</option>
+          <option value="4">England</option>
+          <option value="5">Africa</option>
+          <option value="6">India</option>
+          <option value="7">Pakistan</option>
+          <option value="8">Switzerland</option>
+          <option value="9">Germany</option>
+          <option value="10">France</option>
+          <option value="11">Japan</option>
+          <option value="12">Korea</option>
+          <option value="13">china</option>
+          <option value="14">Others</option>
+        </select>
+      </section>
+    </div>
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label">State</label>
+      <select id="inputState" class="form-select">
+        <option selected>Choose..</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+        <option>others</option>
+      </select>
+    </div>
+    <div class="col-md-2">
+      <label for="inputZip" class="form-label">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+    <div class="">
+      <label class="form-label">Contact Number</label>
+      <input type="text" class="form-control">
+    </div>
+    <div></div>
+    <div></div>
+    <div class="col-md-6">
+      <label class="form-label">Credit Card Number</label>
+      <input type="text" class="form-control">
+    </div>
+    <div class="col-md-6">
+      <label class="form-label">Security code</label>
+      <input type="text" class="form-control">
+    </div>
+    <div class="col-md-6">
+      <label class="form-label">Expiration Date</label>
+      <input type="text" class="form-control">
+    </div>
+    <div class="col-md-6">
+      <label class="form-label">Postal Code</label>
+      <input type="text" class="form-control">
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Sign in</button>
+    </div>
+  </form>
+  <script type="text/javascript" src="home.js">
+  </script>
+
+</body>
+
+</html>

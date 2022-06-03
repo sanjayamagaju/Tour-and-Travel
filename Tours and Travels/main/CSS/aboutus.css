@@ -1,0 +1,438 @@
+body {
+    margin: 10px 10px;
+    padding: 20px 20px 20px 20px;
+    background-attachment: fixed;
+}
+
+header {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    background-color: rgb(81, 167, 182);
+    padding-bottom: 85px;
+    border-radius: 30px;
+    border: 3px dashed rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+nav {
+    float: right;
+    margin-right: 12px;
+    margin-top: 15px;
+    padding-top: 0px;
+    padding-bottom: 0;
+}
+
+nav ul {
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+nav ul li a {
+    display: block;
+    margin-top: 19px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+    font-size: 15px;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    background: rgb(69, 252, 13);
+    border: 1px dashed rgb(27, 2, 247);
+    color: rgba(255, 5, 5, 0.918);
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.search {
+    padding-top: 11px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+input {
+    height: 35px;
+    width: 8cm;
+    border-width: 3px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 40px;
+}
+
+button {
+    color: rgb(0, 0, 0);
+    border-style: none;
+    background: none;
+    padding-left: 5px;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* first full image */
+
+.aboutus {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid black;
+}
+
+.aboutus-img {
+    height: 700px;
+    width: 100%;
+}
+
+.aboutus-img-desc {
+    text-align: center;
+    height: 700px;
+    width: 96%;
+    margin-top: -650px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+/* main about us part -desc part */
+
+.aboutus-part {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 3px solid black;
+}
+
+.aboutus-h1 {
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    padding-bottom: 50px;
+}
+
+.aboutus-txt {
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+/* footer */
+
+.footer-container {
+    width: 100%;
+    display: table;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 50px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    position: relative;
+    border-top: 2px solid black;
+}
+
+.footer-row {
+    width: 100%;
+    column-gap: 5px;
+}
+
+.footer-column1 {
+    display: table-cell;
+    text-align: center;
+    width: 40%;
+    border-right: 5px solid white;
+    background-color: rgb(32, 35, 80);
+    color: rgb(237, 253, 10);
+}
+
+.footer-column2 {
+    display: table-cell;
+    border-right: 5px solid white;
+    text-align: center;
+    width: 20%;
+    color: rgb(237, 253, 10);
+    background-color: rgb(56, 21, 102);
+}
+
+.footer-column3 {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 30%;
+    color: rgb(237, 253, 10);
+    background-color: rgb(72, 23, 82);
+}
+
+.tours {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+
+.contact {
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.quicklink {
+    text-align: justify;
+    padding-top: 10px;
+    padding-left: 80px;
+    padding-right: 20px;
+    color: black;
+}
+
+.quicklink-html {
+    color: rgb(253, 154, 5);
+    text-decoration: none;
+}
+
+.stayintouch {
+    color: rgb(30, 253, 0);
+    font-size: 25px;
+    font-family: cursive;
+    margin-bottom: 10px;
+}
+
+.your-email {
+    height: 43px;
+    width: 8cm;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-width: 2px;
+    border-color: rgb(248, 0, 0);
+}
+
+.subscribe {
+    color: rgb(252, 252, 252);
+    border-width: 3px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background: rgb(235, 8, 8);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.copyright {
+    margin-top: 80px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 16px;
+    padding-top: 5px;
+    text-decoration: underline;
+}
+
+@media (max-width: 1200px) {
+    body {
+        margin: auto;
+    }
+    input {
+        width: 5cm;
+    }
+    /* footer */
+    .footer-container {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .quicklink {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    body {
+        margin: auto;
+    }
+    /* Responsive navbar */
+    .toggle-button {
+        display: flex;
+    }
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+    .navbar {
+        position: relative;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: rgb(81, 167, 182);
+        border: 3px dashed black;
+        border-radius: 10px;
+    }
+    .navbar-links ul {
+        margin-top: 110px;
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbar-links li {
+        text-align: center;
+    }
+    .navbar-links li a {
+        margin: 1px 1px;
+    }
+    .navbar-links.active {
+        display: flex;
+    }
+    /* footer */
+    .tours {
+        font-size: 20px;
+    }
+    .contact {
+        font-size: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .quicklink {
+        font-size: 15px;
+        padding-top: 5px;
+        padding-left: 20px;
+    }
+    .your-email {
+        width: 5cm;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        margin: auto;
+    }
+    /* first full image */
+    .aboutus-img {
+        height: 500px;
+        /* display: none; */
+    }
+    .aboutus-img-desc {
+        color: white;
+        margin-top: -480px;
+        margin-bottom: -200px;
+        font-size: 25px;
+    }
+    /* footer */
+    .tours {
+        font-size: 15px;
+    }
+    .contact {
+        font-size: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .quicklink {
+        font-size: 10px;
+        padding-top: 5px;
+        padding-left: 15px;
+    }
+    .quicklink-html {
+        font-size: 8px;
+    }
+    .your-email {
+        width: 4cm;
+    }
+    .stayintouch {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 580px) {
+    body {
+        margin: auto;
+    }
+    .aboutus-img {
+        height: 350px;
+    }
+    .aboutus-img-desc {
+        color: white;
+        margin-top: -320px;
+        margin-bottom: -370px;
+        font-size: 20px;
+    }
+    /* footer */
+    .tours {
+        font-size: 10px;
+    }
+    .contact {
+        font-size: 8px;
+    }
+    .quicklink {
+        font-size: 10px;
+        padding-top: 5px;
+        padding-left: 5px;
+    }
+    .quicklink-html {
+        font-size: 7px;
+    }
+    .your-email {
+        height: 20px;
+        width: 3cm;
+    }
+    .stayintouch {
+        font-size: 10px;
+    }
+    .copyright {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 450px){
+    /* footer */
+    .tours {
+        font-size: 8px;
+    }
+    .contact {
+        font-size: 6px;
+    }
+    .quicklink {
+        font-size: 8px;
+        padding-top: 3px;
+        padding-left: 3px;
+    }
+    .quicklink-html {
+        font-size: 5px;
+    }
+    .your-email {
+        width: 2cm;
+        height: 15px;
+    }
+    .stayintouch {
+        font-size: 8px;
+    }
+    .copyright {
+        font-size: 8px;
+    }
+}

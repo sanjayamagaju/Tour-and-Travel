@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="CSS/login.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+</head>
+
+<body>
+    <header>`
+        <div class="logo">
+            <img src="images/visit nepal 2020.jpg" height="90px" width="140px" alt="logo" class="">
+        </div>
+        <nav class="navbar">
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="index.html"><b>Home</b></a></li>
+                    <li><a href="gallery.html"><b>Gallery</b></a></li>
+                    <li><a href="destination.html"><b>Destination</b></a></li>
+                    <li><a href="aboutus.html"><b>About Us</b></a></li>
+                    <li>
+                        <form class="search" action="/search" method="GET">
+                            <input type="text" placeholder="Search The packages" name="s" id="search">
+                            <button type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                    </li>
+                    <li><a href="login.html" class="active"><b>Log In</b></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <br>
+    <h1 class="h1">Welcome to Tours And Travels</h1>
+
+
+    <div class="login-container">
+        <div class="login-row">
+            <h2 class="signin">Sign In</h2>
+            <br>
+            <!-- <div class="signin-col">
+                <button class="sign-in-fb"><i class="fab fa-facebook-f"> Sign In with Facebook</i></button>
+            </div>
+            <div class="signin-col1">
+                <button class="sign-in-google"><i class="fab fa-google"></i> Sign In with Google</i></button>
+            </div>
+            <p class="or"><b>OR</b></p> -->
+
+            <form action="/signin">
+                <input class="form" type="text" placeholder="Email address">
+                <br>
+                <input class="form" type="text" placeholder="Password">
+            </form>
+            <br>
+            <button class="signin-button" type="submit"><i class="fas fa-sign-in-alt"></i> <b class="signinhere"> Sign
+                    In </b>
+            </button>
+            <br>
+            <div class="bottom-signin">
+                <a href="#" class="password-forgot"><b>Forgot password?</b></a>
+                <a href="register.html" class="create-new-acc-btn"><b>Create New Account</b></a>
+            </div>
+            <br>
+        </div>
+    </div>
+    <script type="text/javascript" src="home.js">
+    </script>
+
+</body>
+
+</html>
